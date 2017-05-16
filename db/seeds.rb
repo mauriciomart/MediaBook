@@ -1,14 +1,6 @@
 
-PublicActivity::ORM::ActiveRecord::Activity.create!([
-  {trackable_type: "Friendship", trackable_id: 4, owner_type: "User", owner_id: 2, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 5},
-  {trackable_type: "Friendship", trackable_id: 4, owner_type: "User", owner_id: 2, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 5},
-  {trackable_type: "Friendship", trackable_id: 11, owner_type: "User", owner_id: 2, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 9},
-  {trackable_type: "Friendship", trackable_id: 11, owner_type: "User", owner_id: 9, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 2},
-  {trackable_type: "Friendship", trackable_id: 12, owner_type: "User", owner_id: 9, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 3},
-  {trackable_type: "Friendship", trackable_id: 12, owner_type: "User", owner_id: 3, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 9},
-  {trackable_type: "Post", trackable_id: 3, owner_type: "User", owner_id: 2, key: "post.created", parameters: {}, recipient_type: nil, recipient_id: nil},
-  {trackable_type: "Post", trackable_id: 4, owner_type: "User", owner_id: 2, key: "post.created", parameters: {}, recipient_type: nil, recipient_id: nil}
-])
+
+
 User.create!([
   {email: "bartdn183@gmail.com", password: "password", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 2, current_sign_in_at: "2017-05-08 19:24:05", last_sign_in_at: "2017-05-08 18:53:35", current_sign_in_ip: "::1", last_sign_in_ip: "::1", username: "bartdn183", name: "Bart De Nef", age: 34, bio: "Bio Text", school: nil, work: nil},
   {email: "mauriciomartin@me.com", password: "password", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 8, current_sign_in_at: "2017-05-12 16:50:07", last_sign_in_at: "2017-05-11 17:09:46", current_sign_in_ip: "::1", last_sign_in_ip: "::1", username: "mauriciomartin", name: "Mauricio Martin", age: 33, bio: "Just A Colombian guy living in the North Carolina world.", school: "Nova SouthEastern university", work: "None"},
